@@ -1,0 +1,117 @@
+.couponheader{
+    background-color: #202343;
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+
+#navbottom{
+    display: flex;
+    flex-direction: row;
+    font:20px;
+    justify-content: space-between;
+    font-size: 18px;
+    
+}
+#navbottom >div:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbottom >div> img{
+    height:20px;
+    width: 20px;
+}
+
+#celebration>img{
+    /* height:150px; */
+    width:100%;
+}
+
+#Schoolessentials{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #D9CAFE;
+    text-align: center;
+}
+#Schoolessentials1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 250px 250px;
+    background-color:  #D9CAFE;
+    text-align: center;
+    width:78%;
+    margin: auto;
+    gap:5px 5px;
+    
+}
+
+#Schoolessentials1>div{
+    display:flex;
+    flex-direction: column;
+    /* padding-bottom: 20px; */
+}
+
+#Schoolessentials1>div>div>img{
+    height:165px;
+    width: 165px;
+    border-radius: 50%;
+    border: 8px solid #545871;
+}
+
+
+#Summeressentials{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #D0FDFA;
+    text-align: center;
+}
+#Summeressentials1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 250px 250px;
+    background-color:  #D0FDFA;
+    text-align: center;
+    width:78%;
+    margin: auto;
+    gap:5px 5px;
+    
+}
+
+#Summeressentials1>div{
+    display:flex;
+    flex-direction: column;
+    /* padding-bottom: 20px; */
+}
+
+#Summeressentials1>div>div>img{
+    height:165px;
+    width: 165px;
+    border-radius: 50%;
+    border: 8px solid #545871;
+}
+
+#ourbrands{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#ourbrands>div{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ourbrands>div>div{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+
